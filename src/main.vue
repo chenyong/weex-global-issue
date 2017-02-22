@@ -7,11 +7,13 @@
 </template>
 
 <script type="text/javascript">
-  require('./lib')
+  import {run} from './lib';
 
-  module.exports = {
+  run()
+
+  export default {
     data: {
-      demo: 'demo is a demo'
+      demo: 'demo is a demo 2'
     }
   }
 </script>
